@@ -15,10 +15,10 @@
         "title": "wsl-tray",
         "width": 800,
         "height": 600,
-        "alwaysOnTop": true,
+        "alwaysOnTop": false,
         "titleBarStyle": "Transparent",
         "devtools": true,
-        "resizable": false
+        "resizable": true
       }
     ],
     "security": {

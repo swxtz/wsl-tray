@@ -1,6 +1,8 @@
+import "./main.css";
+import "./lib/tray";
+
 import { Separator } from "./components/ui/separator";
 import { WSLButton } from "./components/WSLButton";
-import "./main.css";
 import { Power, PowerOff, RotateCcw } from "lucide-react";
 
 export function App() {
@@ -16,9 +18,15 @@ export function App() {
           Status: <span className="text-green-600 capitalize">ativo</span>
         </h2>
         <div className="mt-12 flex items-center justify-center w-fit mx-auto gap-4">
-          <WSLButton className="border-green-700 hover:bg-green-700">Ligar WSL <Power /></WSLButton>
-          <WSLButton className="border-yellow-600 hover:bg-yellow-600">Reiniciar WSL <RotateCcw /></WSLButton>
-          <WSLButton className="border-red-500 hover:bg-red-500">Desligar WSL <PowerOff /></WSLButton>
+          <WSLButton className="border-green-700 hover:bg-green-700">
+            Ligar WSL <Power />
+          </WSLButton>
+          <WSLButton className="border-yellow-600 hover:bg-yellow-600">
+            Reiniciar WSL <RotateCcw />
+          </WSLButton>
+          <WSLButton className="border-red-500 hover:bg-red-500">
+            Desligar WSL <PowerOff />
+          </WSLButton>
         </div>
       </div>
     </div>

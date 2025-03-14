@@ -2,5 +2,6 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    wsl_tray_lib::run()
+    wsl_tray_lib::run();
+    
 }
